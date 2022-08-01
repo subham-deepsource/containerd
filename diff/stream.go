@@ -36,7 +36,7 @@ var (
 )
 
 func init() {
-	// register the default compression handler
+	// Register the default compression handler
 	RegisterProcessor(compressedHandler)
 }
 
