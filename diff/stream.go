@@ -40,7 +40,7 @@ func init() {
 	RegisterProcessor(compressedHandler)
 }
 
-// RegisterProcessor registers a stream processor for media-types
+// registerProcessor registers a stream processor for media-types
 func RegisterProcessor(handler Handler) {
 	handlers = append(handlers, handler)
 }
